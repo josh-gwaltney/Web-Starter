@@ -1,0 +1,16 @@
+$gutter: 16px !default;
+
+// breakpoints
+$small: 480px !default;
+$medium: 760px !default;
+$large: 960px !default;
+$x-large: 1280px !default;
+$xx-large: 1900px !default;
+
+$breakpoints: $small, $medium, $large, $x-large, $xx-large !default;
+
+// fonts
+$font: monospace !default;
+
+$font-size: 11px !default;
+$heading-font-size: 14px !default;

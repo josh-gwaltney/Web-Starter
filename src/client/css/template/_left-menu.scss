@@ -1,0 +1,23 @@
+.left-menu {
+  background: $gray-dark;
+  z-index: 900;
+
+  &.collapsed {
+    @include flex-item(0, 0, 64px);
+  }
+
+  &.expanded {
+    @include flex-item(0, 0, 240px);
+  }
+}
+@media screen and (max-width: $small){
+  .left-menu{
+    @include hide();
+  }
+}
+
+@media screen and (min-width: 481px){
+  .left-menu {
+
+  }
+}
